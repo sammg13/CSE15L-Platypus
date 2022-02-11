@@ -28,7 +28,7 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<String>();
-        assertEquals(expected,links);
+        assertEquals( //expected,links);
     }
 
     @Test
